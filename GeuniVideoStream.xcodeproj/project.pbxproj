@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C79423D726EEE254004CBF96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79423D626EEE254004CBF96 /* AppDelegate.swift */; };
+		C79423D926EEE254004CBF96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79423D826EEE254004CBF96 /* SceneDelegate.swift */; };
+		C79423DB26EEE254004CBF96 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79423DA26EEE254004CBF96 /* TestViewController.swift */; };
+		C79423DE26EEE254004CBF96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79423DC26EEE254004CBF96 /* Main.storyboard */; };
+		C79423E026EEE256004CBF96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79423DF26EEE256004CBF96 /* Assets.xcassets */; };
+		C79423E326EEE256004CBF96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79423E126EEE256004CBF96 /* LaunchScreen.storyboard */; };
+		C79423EE26EEE256004CBF96 /* GeuniVideoStreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79423ED26EEE256004CBF96 /* GeuniVideoStreamTests.swift */; };
+		C79423F926EEE257004CBF96 /* GeuniVideoStreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79423F826EEE257004CBF96 /* GeuniVideoStreamUITests.swift */; };
+		C794240826EEE2F5004CBF96 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C794240726EEE2F5004CBF96 /* MultipeerConnectivity.framework */; };
+		C794240A26EEE370004CBF96 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C794240926EEE370004CBF96 /* MainViewController.swift */; };
+		C794240C26EEE5AE004CBF96 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C794240B26EEE5AE004CBF96 /* RootViewController.swift */; };
+		C794240F26EEE5CE004CBF96 /* RootItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C794240E26EEE5CE004CBF96 /* RootItem.swift */; };
+		C794241226EEE739004CBF96 /* RootTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C794241126EEE739004CBF96 /* RootTableViewCell.swift */; };
+		C794241526EEE90A004CBF96 /* RootTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C794241426EEE90A004CBF96 /* RootTypes.swift */; };
+		C794241826EEEBF4004CBF96 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C794241726EEEBF4004CBF96 /* ChatViewController.swift */; };
+		C794241A26EEEC02004CBF96 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C794241926EEEC02004CBF96 /* VideoViewController.swift */; };
+		C794241C26EEF35B004CBF96 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C794241B26EEF35B004CBF96 /* UserTableViewCell.swift */; };
+		C794241E26EEF366004CBF96 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C794241D26EEF366004CBF96 /* MessageTableViewCell.swift */; };
+		C794242026EEF3DC004CBF96 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C794241F26EEF3DC004CBF96 /* User.swift */; };
+		C794242226EF1C59004CBF96 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C794242126EF1C59004CBF96 /* Message.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C79423EA26EEE256004CBF96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C79423CB26EEE254004CBF96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C79423D226EEE254004CBF96;
+			remoteInfo = GeuniVideoStream;
+		};
+		C79423F526EEE257004CBF96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C79423CB26EEE254004CBF96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C79423D226EEE254004CBF96;
+			remoteInfo = GeuniVideoStream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C79423D326EEE254004CBF96 /* GeuniVideoStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeuniVideoStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C79423D626EEE254004CBF96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C79423D826EEE254004CBF96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C79423DA26EEE254004CBF96 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		C79423DD26EEE254004CBF96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C79423DF26EEE256004CBF96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C79423E226EEE256004CBF96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C79423E426EEE256004CBF96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C79423E926EEE256004CBF96 /* GeuniVideoStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeuniVideoStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C79423ED26EEE256004CBF96 /* GeuniVideoStreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeuniVideoStreamTests.swift; sourceTree = "<group>"; };
+		C79423EF26EEE256004CBF96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C79423F426EEE257004CBF96 /* GeuniVideoStreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeuniVideoStreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C79423F826EEE257004CBF96 /* GeuniVideoStreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeuniVideoStreamUITests.swift; sourceTree = "<group>"; };
+		C79423FA26EEE257004CBF96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C794240726EEE2F5004CBF96 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		C794240926EEE370004CBF96 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C794240B26EEE5AE004CBF96 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		C794240E26EEE5CE004CBF96 /* RootItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootItem.swift; sourceTree = "<group>"; };
+		C794241126EEE739004CBF96 /* RootTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTableViewCell.swift; sourceTree = "<group>"; };
+		C794241426EEE90A004CBF96 /* RootTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTypes.swift; sourceTree = "<group>"; };
+		C794241726EEEBF4004CBF96 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		C794241926EEEC02004CBF96 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		C794241B26EEF35B004CBF96 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		C794241D26EEF366004CBF96 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		C794241F26EEF3DC004CBF96 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C794242126EF1C59004CBF96 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C79423D026EEE254004CBF96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C794240826EEE2F5004CBF96 /* MultipeerConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79423E626EEE256004CBF96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79423F126EEE257004CBF96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C79423CA26EEE254004CBF96 = {
+			isa = PBXGroup;
+			children = (
+				C79423D526EEE254004CBF96 /* GeuniVideoStream */,
+				C79423EC26EEE256004CBF96 /* GeuniVideoStreamTests */,
+				C79423F726EEE257004CBF96 /* GeuniVideoStreamUITests */,
+				C79423D426EEE254004CBF96 /* Products */,
+				C794240626EEE2F4004CBF96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C79423D426EEE254004CBF96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C79423D326EEE254004CBF96 /* GeuniVideoStream.app */,
+				C79423E926EEE256004CBF96 /* GeuniVideoStreamTests.xctest */,
+				C79423F426EEE257004CBF96 /* GeuniVideoStreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C79423D526EEE254004CBF96 /* GeuniVideoStream */ = {
+			isa = PBXGroup;
+			children = (
+				C79423D626EEE254004CBF96 /* AppDelegate.swift */,
+				C79423D826EEE254004CBF96 /* SceneDelegate.swift */,
+				C79423DA26EEE254004CBF96 /* TestViewController.swift */,
+				C794241326EEE8FD004CBF96 /* enum */,
+				C794241026EEE725004CBF96 /* views */,
+				C794240D26EEE5BD004CBF96 /* model */,
+				C794241626EEEBC2004CBF96 /* viewcontroller */,
+				C79423DC26EEE254004CBF96 /* Main.storyboard */,
+				C79423DF26EEE256004CBF96 /* Assets.xcassets */,
+				C79423E126EEE256004CBF96 /* LaunchScreen.storyboard */,
+				C79423E426EEE256004CBF96 /* Info.plist */,
+			);
+			path = GeuniVideoStream;
+			sourceTree = "<group>";
+		};
+		C79423EC26EEE256004CBF96 /* GeuniVideoStreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				C79423ED26EEE256004CBF96 /* GeuniVideoStreamTests.swift */,
+				C79423EF26EEE256004CBF96 /* Info.plist */,
+			);
+			path = GeuniVideoStreamTests;
+			sourceTree = "<group>";
+		};
+		C79423F726EEE257004CBF96 /* GeuniVideoStreamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C79423F826EEE257004CBF96 /* GeuniVideoStreamUITests.swift */,
+				C79423FA26EEE257004CBF96 /* Info.plist */,
+			);
+			path = GeuniVideoStreamUITests;
+			sourceTree = "<group>";
+		};
+		C794240626EEE2F4004CBF96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C794240726EEE2F5004CBF96 /* MultipeerConnectivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C794240D26EEE5BD004CBF96 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C794240E26EEE5CE004CBF96 /* RootItem.swift */,
+				C794241F26EEF3DC004CBF96 /* User.swift */,
+				C794242126EF1C59004CBF96 /* Message.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C794241026EEE725004CBF96 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C794241126EEE739004CBF96 /* RootTableViewCell.swift */,
+				C794241B26EEF35B004CBF96 /* UserTableViewCell.swift */,
+				C794241D26EEF366004CBF96 /* MessageTableViewCell.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		C794241326EEE8FD004CBF96 /* enum */ = {
+			isa = PBXGroup;
+			children = (
+				C794241426EEE90A004CBF96 /* RootTypes.swift */,
+			);
+			path = enum;
+			sourceTree = "<group>";
+		};
+		C794241626EEEBC2004CBF96 /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				C794240926EEE370004CBF96 /* MainViewController.swift */,
+				C794240B26EEE5AE004CBF96 /* RootViewController.swift */,
+				C794241726EEEBF4004CBF96 /* ChatViewController.swift */,
+				C794241926EEEC02004CBF96 /* VideoViewController.swift */,
+			);
+			path = viewcontroller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C79423D226EEE254004CBF96 /* GeuniVideoStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C79423FD26EEE257004CBF96 /* Build configuration list for PBXNativeTarget "GeuniVideoStream" */;
+			buildPhases = (
+				C79423CF26EEE254004CBF96 /* Sources */,
+				C79423D026EEE254004CBF96 /* Frameworks */,
+				C79423D126EEE254004CBF96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeuniVideoStream;
+			productName = GeuniVideoStream;
+			productReference = C79423D326EEE254004CBF96 /* GeuniVideoStream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C79423E826EEE256004CBF96 /* GeuniVideoStreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C794240026EEE257004CBF96 /* Build configuration list for PBXNativeTarget "GeuniVideoStreamTests" */;
+			buildPhases = (
+				C79423E526EEE256004CBF96 /* Sources */,
+				C79423E626EEE256004CBF96 /* Frameworks */,
+				C79423E726EEE256004CBF96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C79423EB26EEE256004CBF96 /* PBXTargetDependency */,
+			);
+			name = GeuniVideoStreamTests;
+			productName = GeuniVideoStreamTests;
+			productReference = C79423E926EEE256004CBF96 /* GeuniVideoStreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C79423F326EEE257004CBF96 /* GeuniVideoStreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C794240326EEE257004CBF96 /* Build configuration list for PBXNativeTarget "GeuniVideoStreamUITests" */;
+			buildPhases = (
+				C79423F026EEE257004CBF96 /* Sources */,
+				C79423F126EEE257004CBF96 /* Frameworks */,
+				C79423F226EEE257004CBF96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C79423F626EEE257004CBF96 /* PBXTargetDependency */,
+			);
+			name = GeuniVideoStreamUITests;
+			productName = GeuniVideoStreamUITests;
+			productReference = C79423F426EEE257004CBF96 /* GeuniVideoStreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C79423CB26EEE254004CBF96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C79423D226EEE254004CBF96 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					C79423E826EEE256004CBF96 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C79423D226EEE254004CBF96;
+					};
+					C79423F326EEE257004CBF96 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C79423D226EEE254004CBF96;
+					};
+				};
+			};
+			buildConfigurationList = C79423CE26EEE254004CBF96 /* Build configuration list for PBXProject "GeuniVideoStream" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C79423CA26EEE254004CBF96;
+			productRefGroup = C79423D426EEE254004CBF96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C79423D226EEE254004CBF96 /* GeuniVideoStream */,
+				C79423E826EEE256004CBF96 /* GeuniVideoStreamTests */,
+				C79423F326EEE257004CBF96 /* GeuniVideoStreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C79423D126EEE254004CBF96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C79423E326EEE256004CBF96 /* LaunchScreen.storyboard in Resources */,
+				C79423E026EEE256004CBF96 /* Assets.xcassets in Resources */,
+				C79423DE26EEE254004CBF96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79423E726EEE256004CBF96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79423F226EEE257004CBF96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C79423CF26EEE254004CBF96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C794242026EEF3DC004CBF96 /* User.swift in Sources */,
+				C794241226EEE739004CBF96 /* RootTableViewCell.swift in Sources */,
+				C794240F26EEE5CE004CBF96 /* RootItem.swift in Sources */,
+				C794241C26EEF35B004CBF96 /* UserTableViewCell.swift in Sources */,
+				C794240C26EEE5AE004CBF96 /* RootViewController.swift in Sources */,
+				C794241526EEE90A004CBF96 /* RootTypes.swift in Sources */,
+				C794241E26EEF366004CBF96 /* MessageTableViewCell.swift in Sources */,
+				C79423DB26EEE254004CBF96 /* TestViewController.swift in Sources */,
+				C79423D726EEE254004CBF96 /* AppDelegate.swift in Sources */,
+				C79423D926EEE254004CBF96 /* SceneDelegate.swift in Sources */,
+				C794241826EEEBF4004CBF96 /* ChatViewController.swift in Sources */,
+				C794241A26EEEC02004CBF96 /* VideoViewController.swift in Sources */,
+				C794240A26EEE370004CBF96 /* MainViewController.swift in Sources */,
+				C794242226EF1C59004CBF96 /* Message.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79423E526EEE256004CBF96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C79423EE26EEE256004CBF96 /* GeuniVideoStreamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79423F026EEE257004CBF96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C79423F926EEE257004CBF96 /* GeuniVideoStreamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C79423EB26EEE256004CBF96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C79423D226EEE254004CBF96 /* GeuniVideoStream */;
+			targetProxy = C79423EA26EEE256004CBF96 /* PBXContainerItemProxy */;
+		};
+		C79423F626EEE257004CBF96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C79423D226EEE254004CBF96 /* GeuniVideoStream */;
+			targetProxy = C79423F526EEE257004CBF96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C79423DC26EEE254004CBF96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C79423DD26EEE254004CBF96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C79423E126EEE256004CBF96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C79423E226EEE256004CBF96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C79423FB26EEE257004CBF96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C79423FC26EEE257004CBF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C79423FE26EEE257004CBF96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4T94USG8M;
+				INFOPLIST_FILE = GeuniVideoStream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daddy73e.GeuniVideoStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C79423FF26EEE257004CBF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4T94USG8M;
+				INFOPLIST_FILE = GeuniVideoStream/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daddy73e.GeuniVideoStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C794240126EEE257004CBF96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4T94USG8M;
+				INFOPLIST_FILE = GeuniVideoStreamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daddy73e.GeuniVideoStreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeuniVideoStream.app/GeuniVideoStream";
+			};
+			name = Debug;
+		};
+		C794240226EEE257004CBF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4T94USG8M;
+				INFOPLIST_FILE = GeuniVideoStreamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daddy73e.GeuniVideoStreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeuniVideoStream.app/GeuniVideoStream";
+			};
+			name = Release;
+		};
+		C794240426EEE257004CBF96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4T94USG8M;
+				INFOPLIST_FILE = GeuniVideoStreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daddy73e.GeuniVideoStreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeuniVideoStream;
+			};
+			name = Debug;
+		};
+		C794240526EEE257004CBF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4T94USG8M;
+				INFOPLIST_FILE = GeuniVideoStreamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daddy73e.GeuniVideoStreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeuniVideoStream;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C79423CE26EEE254004CBF96 /* Build configuration list for PBXProject "GeuniVideoStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C79423FB26EEE257004CBF96 /* Debug */,
+				C79423FC26EEE257004CBF96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C79423FD26EEE257004CBF96 /* Build configuration list for PBXNativeTarget "GeuniVideoStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C79423FE26EEE257004CBF96 /* Debug */,
+				C79423FF26EEE257004CBF96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C794240026EEE257004CBF96 /* Build configuration list for PBXNativeTarget "GeuniVideoStreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C794240126EEE257004CBF96 /* Debug */,
+				C794240226EEE257004CBF96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C794240326EEE257004CBF96 /* Build configuration list for PBXNativeTarget "GeuniVideoStreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C794240426EEE257004CBF96 /* Debug */,
+				C794240526EEE257004CBF96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C79423CB26EEE254004CBF96 /* Project object */;
+}
