@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MultipeerConnectivity
 
 class UserTableViewCell: UITableViewCell {
 
@@ -21,7 +22,7 @@ class UserTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
-    public func config(user:User) {
-        labelUserName.text = user.name
+    public func config(user:MCPeerID) {
+        labelUserName.text = user.displayName
     }
 }

@@ -23,7 +23,7 @@ class ChatViewController: UIViewController {
     private let originMarginBottomMsg:CGFloat = 5
     private let myMessageId = UIDevice.current.identifierForVendor!.uuidString
     
-    private var arrChatUser = [User]()
+    private var arrChatUser = [MCPeerID]()
     private var arrMessage = [Message]()
     
     private var peerId:MCPeerID!
@@ -68,8 +68,18 @@ class ChatViewController: UIViewController {
         }
     }
     
-    private func updateUser(user:User) {
+    private func updateUser(user:MCPeerID) {
         arrChatUser.append(user)
+        DispatchQueue.main.async {
+            self.tableUser.reloadData()
+            if self.arrChatUser.count != 0 {
+                self.tableUser.scrollToBottom(isAnimated: true)
+            }
+        }
+    }
+    
+    private func leaveUser(user:MCPeerID) {
+        self.arrChatUser.removeAll{$0 == user}
         DispatchQueue.main.async {
             self.tableUser.reloadData()
             if self.arrChatUser.count != 0 {
@@ -163,12 +173,13 @@ extension ChatViewController:MCSessionDelegate {
         hideLoading()
         switch state {
         case .connected:
-            let user = User(name: peerID.displayName)
-            updateUser(user: user)
+            print("Connected: \(peerID.displayName)")
+            updateUser(user: peerID)
         case .connecting:
             print("Connecting: \(peerID.displayName)")
         case .notConnected:
             print("Not Connected: \(peerID.displayName)")
+            leaveUser(user: peerID)
         @unknown default:
             print("fatal error")
         }
