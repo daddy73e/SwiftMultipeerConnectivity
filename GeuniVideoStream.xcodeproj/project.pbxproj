@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C76C03CC26F06D98006AB24B /* MessageTableMyViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76C03CB26F06D98006AB24B /* MessageTableMyViewCell.swift */; };
 		C79423D726EEE254004CBF96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79423D626EEE254004CBF96 /* AppDelegate.swift */; };
-		C79423D926EEE254004CBF96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79423D826EEE254004CBF96 /* SceneDelegate.swift */; };
 		C79423DB26EEE254004CBF96 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79423DA26EEE254004CBF96 /* TestViewController.swift */; };
 		C79423DE26EEE254004CBF96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79423DC26EEE254004CBF96 /* Main.storyboard */; };
 		C79423E026EEE256004CBF96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79423DF26EEE256004CBF96 /* Assets.xcassets */; };
@@ -24,7 +24,7 @@
 		C794241826EEEBF4004CBF96 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C794241726EEEBF4004CBF96 /* ChatViewController.swift */; };
 		C794241A26EEEC02004CBF96 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C794241926EEEC02004CBF96 /* VideoViewController.swift */; };
 		C794241C26EEF35B004CBF96 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C794241B26EEF35B004CBF96 /* UserTableViewCell.swift */; };
-		C794241E26EEF366004CBF96 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C794241D26EEF366004CBF96 /* MessageTableViewCell.swift */; };
+		C794241E26EEF366004CBF96 /* MessageTableOtherViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C794241D26EEF366004CBF96 /* MessageTableOtherViewCell.swift */; };
 		C794242026EEF3DC004CBF96 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C794241F26EEF3DC004CBF96 /* User.swift */; };
 		C794242226EF1C59004CBF96 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C794242126EF1C59004CBF96 /* Message.swift */; };
 /* End PBXBuildFile section */
@@ -47,9 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C76C03CB26F06D98006AB24B /* MessageTableMyViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableMyViewCell.swift; sourceTree = "<group>"; };
 		C79423D326EEE254004CBF96 /* GeuniVideoStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeuniVideoStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79423D626EEE254004CBF96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C79423D826EEE254004CBF96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C79423DA26EEE254004CBF96 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		C79423DD26EEE254004CBF96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C79423DF26EEE256004CBF96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 		C794241726EEEBF4004CBF96 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		C794241926EEEC02004CBF96 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		C794241B26EEF35B004CBF96 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
-		C794241D26EEF366004CBF96 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		C794241D26EEF366004CBF96 /* MessageTableOtherViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableOtherViewCell.swift; sourceTree = "<group>"; };
 		C794241F26EEF3DC004CBF96 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C794242126EF1C59004CBF96 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,7 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				C79423D626EEE254004CBF96 /* AppDelegate.swift */,
-				C79423D826EEE254004CBF96 /* SceneDelegate.swift */,
 				C79423DA26EEE254004CBF96 /* TestViewController.swift */,
 				C794241326EEE8FD004CBF96 /* enum */,
 				C794241026EEE725004CBF96 /* views */,
@@ -181,7 +180,8 @@
 			children = (
 				C794241126EEE739004CBF96 /* RootTableViewCell.swift */,
 				C794241B26EEF35B004CBF96 /* UserTableViewCell.swift */,
-				C794241D26EEF366004CBF96 /* MessageTableViewCell.swift */,
+				C794241D26EEF366004CBF96 /* MessageTableOtherViewCell.swift */,
+				C76C03CB26F06D98006AB24B /* MessageTableMyViewCell.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -340,11 +340,11 @@
 				C794240F26EEE5CE004CBF96 /* RootItem.swift in Sources */,
 				C794241C26EEF35B004CBF96 /* UserTableViewCell.swift in Sources */,
 				C794240C26EEE5AE004CBF96 /* RootViewController.swift in Sources */,
+				C76C03CC26F06D98006AB24B /* MessageTableMyViewCell.swift in Sources */,
 				C794241526EEE90A004CBF96 /* RootTypes.swift in Sources */,
-				C794241E26EEF366004CBF96 /* MessageTableViewCell.swift in Sources */,
+				C794241E26EEF366004CBF96 /* MessageTableOtherViewCell.swift in Sources */,
 				C79423DB26EEE254004CBF96 /* TestViewController.swift in Sources */,
 				C79423D726EEE254004CBF96 /* AppDelegate.swift in Sources */,
-				C79423D926EEE254004CBF96 /* SceneDelegate.swift in Sources */,
 				C794241826EEEBF4004CBF96 /* ChatViewController.swift in Sources */,
 				C794241A26EEEC02004CBF96 /* VideoViewController.swift in Sources */,
 				C794240A26EEE370004CBF96 /* MainViewController.swift in Sources */,

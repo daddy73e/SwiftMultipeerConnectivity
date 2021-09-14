@@ -1,5 +1,5 @@
 //
-//  MessageTableViewCell.swift
+//  MessageTableOtherViewCell.swift
 //  GeuniVideoStream
 //
 //  Created by Yeongeun Song on 2021/09/13.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MessageTableViewCell: UITableViewCell {
+class MessageTableOtherViewCell: UITableViewCell {
     
     @IBOutlet weak var labelId: UILabel!
     @IBOutlet weak var labelMessage: UILabel!
@@ -24,7 +24,7 @@ class MessageTableViewCell: UITableViewCell {
     }
 
     public func config(msg:Message) {
-        labelId.text = msg.id
+        labelId.text = msg.displayName
         labelMessage.text = msg.message
     }
 }

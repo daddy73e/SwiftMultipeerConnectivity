@@ -9,6 +9,7 @@ import Foundation
 
 struct Message:Codable {
     var id:String
+    var displayName:String
     var message:String
 }
 
