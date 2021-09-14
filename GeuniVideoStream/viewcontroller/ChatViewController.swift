@@ -150,6 +150,7 @@ extension ChatViewController {
                 txtMessage.text = ""
             }
             catch {
+                
                 print("Error sending message")
             }
         }
